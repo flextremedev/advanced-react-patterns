@@ -43,17 +43,7 @@ function ToggleButton({...props}) {
 }
 
 function App() {
-  return (
-    <div>
-      <Toggle>
-        <ToggleOn>The button is on</ToggleOn>
-        <ToggleOff>The button is off</ToggleOff>
-        <div>
-          <ToggleButton />
-        </div>
-      </Toggle>
-    </div>
-  )
+  return <ToggleButton />
 }
 
 export default App
